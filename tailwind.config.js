@@ -66,7 +66,11 @@ module.exports = {
         //common for width, height, padding, margin
         4.5: "18px", //p-4.5 , m-4.5 , w-4.5, h-4.5
         11.5: "46px", //divide the required value by 4 to get the key name (46/4 = 11.5)
-        "77px": "77px" // Directly use the pixel value if the divided has more than 1 decimal (e.g., 77/4 = 19.25, so use 77px)
+        "77px": "77px", // Directly use the pixel value if the divided has more than 1 decimal (e.g., 77/4 = 19.25, so use 77px)
+        50: "200px",
+        125: "500px",
+        "550px": "550px",
+        150: "600px"
       }
     }
   },
